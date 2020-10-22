@@ -1,46 +1,46 @@
 class Translation(object):
-    START_TEXT = """Hello,
-This is a Telegram Rename Bot!
+    START_TEXT = """Hola,
+Mi nombre es Rename Bot!
 
-<b>Please send me any Telegram file and reply to that file to /rename New Name.mkv</b>
+<b>Por favor reenvíame un archivo de Telegram y luego responde éste con /rename Nuevo nombre.apk</b>
 
-/help for more details.."""
-    RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
-    ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me🤓.**"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
-    NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
-    SAVED_CUSTOM_THUMB_NAIL = "Custom File thumbnail saved. This image will be used in the File."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
-    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
-    SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
+/help para más detalles..."""
+    RENAME_403_ERR = "Perdona, tú no tienes permitido editar este archivo"
+    ABS_TEXT = "Por favor, no seas egoísta."
+    UPGRADE_TEXT = "<b>👉 Para crear tu propio bot contacta a @DKzippO</b>  /help para más detalles"
+    DOWNLOAD_START = "intentando descargar..."
+    UPLOAD_START = "intentando subir..."
+    RCHD_TG_API_LIMIT = "Descargado en {} segundos.\nTamaño de archivo detectado: {}\nLo siento. Pero no puedo subir archivos de más de 1,5 GB debido a las limitaciones de la API de Telegram."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Gracias por usarme🤓.**"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Descargado en {} segundos.\nSubido en {} segundos."
+    NOT_AUTH_USER_TEXT = "Porfavor, utiliza el comando /upgrade para aumentar tu suscripción."
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Tamaño de archivo detectado: {}. Los usuarios gratuitos solo pueden cargar: {}\nPorfavor, utiliza el comando /upgrade para aumentar tu suscripción.\nSi cree que se trata de un error, comuníquese con <a href='https://t.me/DKzippO'>Skueletor</a>"
+    SAVED_CUSTOM_THUMB_NAIL = "✅ Se guardó la miniatura del archivo personalizado. Esta imagen se utilizará en el archivo."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Miniatura personalizada borrada con éxito."
+    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Las miniaturas se borraron correctamente."
+    SAVED_RECVD_DOC_FILE = "Documento descargado exitosamente."
     CUSTOM_CAPTION_UL_FILE = " "
-    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
-    USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    HELP_USER = """Hai am Rename bot..
+    NO_CUSTOM_THUMB_NAIL_FOUND = "No se encontró ninguna miniatura personalizada."
+    USER_ADDED_TO_DB = "Usuario <a href='tg://user?id={}'>{}</a> añadido a {} hasta {}."
+    HELP_USER = """Hola nuevo amigo, soy Rename Bot...
     
-1. Send me any Telegram File.
-2. Reply to that message to /rename new name.extension.
+1. Envíame algún archivo de Telegram.
+2. Responde a ese mensaje con /rename nuevo nombre.extensión.
    
-<b>👉 Create own Clone Bot :</b> 👉 <a href="https://youtu.be/yYHrSnuYXpA">Diploy</a>
+<b>👉 Creado por :</b> 👉 <a href="https://t.me/DKzippO">Skueletor</a>
 
 --------
 
-Support Group : @InFoTelGroup
-© @SpEcHlDe @TGBotsZ"""
-    REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to `/rename New Name.extension` with custom thumbnail support.."
-    ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
-    FREE_USER_LIMIT_Q_SZE = """Cannot Process.
-Free users only 1 request per 30 minutes.
-/upgrade or Try 1800 seconds later."""
-    IFLONG_FILE_NAME = """File Name limit allowed by Telegram is {alimit} characters.
-The given file name has {num} characters.
+Support Group : @BotsDeSkueletor
+©"""
+    REPLY_TO_DOC_FOR_RENAME_FILE = "Responde al archivo de Telegram con `/rename Nuevo Nombre.extensión` Ahora con soporte de miniaturas personalizadas ..."
+    ABUSIVE_USERS = "No está autorizado a utilizar este bot. Si cree que se trata de un error, escriba /me para eliminar esta restricción."
+    FREE_USER_LIMIT_Q_SZE = """No se puede procesar.
+Usuarios gratuitos solo 1 solicitud cada 30 minutos.
+Escribe /upgrade o inténtalo de nuevo en 30 minutos."""
+    IFLONG_FILE_NAME = """El límite de nombre de archivo permitido por Telegram es {alimit} caracteres.
+El nombre de archivo dado tiene {num} caracteres.
 
-<b>Essays Not allowed in Telegram file name!</b>
-©️ <code>@ReNameBot</code>
-Please short your file name and try again!"""
+<b>¡Ensayos no permitidos en el nombre de archivo de Telegram!</b>
+©️ <code>@RenameArchive_bot</code>
+Por favor, abre el nombre de tu archivo y vuelve a intentarlo."""
